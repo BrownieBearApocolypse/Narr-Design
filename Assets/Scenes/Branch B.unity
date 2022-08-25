@@ -1150,7 +1150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.299971
+      value: 14.299984
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1465,11 +1465,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84b9b3d835d4600429c668b0c688dcf0, type: 3}
---- !u!1 &1682261758 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 576270201, guid: 84b9b3d835d4600429c668b0c688dcf0, type: 3}
-  m_PrefabInstance: {fileID: 1682261757}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1773698527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1488,7 +1483,6 @@ GameObject:
   - component: {fileID: 1773698539}
   - component: {fileID: 1773698538}
   - component: {fileID: 1773698537}
-  - component: {fileID: 1773698536}
   - component: {fileID: 1773698534}
   - component: {fileID: 1773698533}
   - component: {fileID: 1773698531}
@@ -1500,8 +1494,6 @@ GameObject:
   - component: {fileID: 1773698572}
   - component: {fileID: 1773698571}
   - component: {fileID: 1773698570}
-  - component: {fileID: 1773698569}
-  - component: {fileID: 1773698568}
   - component: {fileID: 1773698567}
   - component: {fileID: 1773698566}
   - component: {fileID: 1773698565}
@@ -1525,6 +1517,7 @@ GameObject:
   - component: {fileID: 1773698540}
   - component: {fileID: 1773698532}
   - component: {fileID: 1773698528}
+  - component: {fileID: 1773698536}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1534,7 +1527,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1773698528
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1619,7 +1612,7 @@ MonoBehaviour:
   value: Coins
 --- !u!114 &1773698532
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1716,32 +1709,23 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698536
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773698527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 20
+  itemId: 79
   indentLevel: 0
-  textObject: {fileID: 1682261758}
-  text:
+  _sceneName:
     stringRef: {fileID: 0}
-    stringVal: '{$MoneyName}: {$Money}'
-  description: 
-  clearText: 1
-  waitUntilFinished: 1
-  textColor: 0
-  setAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  setColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
+    stringVal: Scene 3
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &1773698537
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1801,7 +1785,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 321
     y: 354
-    width: 79
+    width: 78.76711
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1811,10 +1795,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1773698538}
+  - {fileID: 1773698536}
   suppressAllAutoSelections: 0
 --- !u!114 &1773698540
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1841,7 +1826,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698541
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1868,7 +1853,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698542
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1895,7 +1880,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698543
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1922,7 +1907,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698544
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1963,7 +1948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 308
     y: 266
-    width: 107
+    width: 108.90408
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1991,7 +1976,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1773698546
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2112,9 +2097,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 318
-    y: 158.93617
-    width: 108
+    x: 305
+    y: 165.93617
+    width: 110.27396
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2128,8 +2113,6 @@ MonoBehaviour:
   - {fileID: 1773698571}
   - {fileID: 1773698570}
   - {fileID: 1773698572}
-  - {fileID: 1773698569}
-  - {fileID: 1773698568}
   - {fileID: 1773698567}
   - {fileID: 1773698566}
   - {fileID: 1773698565}
@@ -2187,7 +2170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314
     y: 48
-    width: 90
+    width: 91.09587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2197,7 +2180,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1773698552}
   commandList:
   - {fileID: 1773698551}
-  - {fileID: 1773698536}
   - {fileID: 1773698533}
   - {fileID: 1773698534}
   suppressAllAutoSelections: 0
@@ -2214,11 +2196,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -157, y: -32}
+  scrollPos: {x: -8.40679, y: 48.714077}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2226,9 +2208,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1773698545}
+  - {fileID: 1773698539}
   selectedCommands:
-  - {fileID: 1773698528}
+  - {fileID: 1773698536}
   variables:
   - {fileID: 1773698531}
   - {fileID: 1773698530}
@@ -2571,63 +2553,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: I'm fine Josie
+  storyText: I'm fine Josie.
   description: 
   character: {fileID: 1266915365}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1773698568
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1773698527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 53
-  indentLevel: 0
-  storyText: "You\u2019ll have to face it eventually Harper."
-  description: 
-  character: {fileID: 1113767940}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1773698569
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1773698527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 52
-  indentLevel: 0
-  storyText: "\u2026."
-  description: 
-  character: {fileID: 1113767940}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2680,7 +2608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: "I\u2019m fine "
+  storyText: "I\u2019m fine."
   description: 
   character: {fileID: 1266915365}
   portrait: {fileID: 0}
@@ -2707,8 +2635,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: "Are you sure? I just, I just worry about you. You\u2019ve barely talked,
-    barely moved, you\u2019ve barely eaten! "
+  storyText: Are you sure? I just, I worry about you. You've been overworking yourself
+    lovey, I may be old but I can still help, you need to sit down and let yourself
+    feel.
   description: 
   character: {fileID: 1113767940}
   portrait: {fileID: 0}
