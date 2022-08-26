@@ -151,7 +151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &202539485
 GameObject:
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 624723777}
 --- !u!4 &202539487
 Transform:
   m_ObjectHideFlags: 1
@@ -291,7 +291,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &496171691
 PrefabInstance:
@@ -494,7 +494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779540461265, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779540461265, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -594,7 +594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.299971
+      value: 14.299965
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -651,7 +651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6320798537054186486, guid: 84b9b3d835d4600429c668b0c688dcf0, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6320798537054186486, guid: 84b9b3d835d4600429c668b0c688dcf0, type: 3}
       propertyPath: m_AnchorMax.x
@@ -731,6 +731,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84b9b3d835d4600429c668b0c688dcf0, type: 3}
+--- !u!1001 &567672001
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880066, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_Name
+      value: Old Woman Josie
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
 --- !u!1 &624723751
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,25 +802,28 @@ GameObject:
   - component: {fileID: 624723775}
   - component: {fileID: 624723774}
   - component: {fileID: 624723773}
-  - component: {fileID: 624723772}
   - component: {fileID: 624723771}
   - component: {fileID: 624723770}
-  - component: {fileID: 624723769}
   - component: {fileID: 624723768}
   - component: {fileID: 624723767}
   - component: {fileID: 624723766}
   - component: {fileID: 624723765}
+  - component: {fileID: 624723758}
+  - component: {fileID: 624723757}
+  - component: {fileID: 624723754}
+  - component: {fileID: 624723781}
+  - component: {fileID: 624723780}
+  - component: {fileID: 624723779}
+  - component: {fileID: 624723772}
+  - component: {fileID: 624723769}
   - component: {fileID: 624723764}
   - component: {fileID: 624723763}
   - component: {fileID: 624723762}
   - component: {fileID: 624723761}
   - component: {fileID: 624723760}
   - component: {fileID: 624723759}
-  - component: {fileID: 624723758}
-  - component: {fileID: 624723757}
   - component: {fileID: 624723756}
   - component: {fileID: 624723755}
-  - component: {fileID: 624723754}
   - component: {fileID: 624723753}
   - component: {fileID: 624723752}
   m_Layer: 0
@@ -775,7 +835,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &624723752
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -785,11 +845,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 41
+  itemId: 56
   indentLevel: 0
-  storyText: 
+  storyText: "\u2026"
   description: 
-  character: {fileID: 976692269}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -802,7 +862,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &624723753
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -812,11 +872,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 40
+  itemId: 55
   indentLevel: 0
-  storyText: 
+  storyText: "Samphire, Sea Peas, Saltbush, 8 rungs to the top. Don\u2019t think
+    about Charlie"
   description: 
-  character: {fileID: 799597956}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -829,7 +890,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &624723754
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -841,9 +902,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: '*nods*'
+  storyText: Alright, here we are. Let's go.
   description: 
-  character: {fileID: 799597956}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -856,7 +917,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &624723755
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -866,12 +927,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 38
+  itemId: 54
   indentLevel: 0
-  storyText: You're alright Harper, I should have told you sooner I'm sorry for that.
-    Come on, let's head inside it's late out.
+  storyText: "It\u2019s\u2026. I think it\u2019s trapped\u2026."
   description: 
-  character: {fileID: 976692269}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -884,7 +944,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &624723756
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -894,12 +954,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 37
+  itemId: 53
   indentLevel: 0
-  storyText: I shouldn't have run away, I shouldn't have yelled, I'm sorry I'm sorry,
-    you were doing your best I'm sorry
+  storyText: "Waah! Wait\u2026 it\u2019s the light!"
   description: 
-  character: {fileID: 799597956}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -912,7 +971,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &624723757
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -926,7 +985,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Scene 3
+    stringVal: Scene 4
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &624723758
@@ -944,7 +1003,7 @@ MonoBehaviour:
   itemId: 35
   indentLevel: 0
   targetFlowchart: {fileID: 624723777}
-  targetBlock: {fileID: 624723772}
+  targetBlock: {fileID: 624723771}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -962,11 +1021,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 34
+  itemId: 52
   indentLevel: 0
-  storyText: You're alright sweetheart, you're alright
+  storyText: "\u2026"
   description: 
-  character: {fileID: 976692269}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -989,11 +1048,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 33
+  itemId: 51
   indentLevel: 0
-  storyText: I-I'm sorry *sob*
+  storyText: "Samphire, Sea Peas, Saltbush, 14 rungs to the top. Don\u2019t think
+    about home"
   description: 
-  character: {fileID: 799597956}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1016,11 +1076,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 32
+  itemId: 50
   indentLevel: 0
-  storyText: Oh dearie, it will be okay. I've got you honey; I've got you
+  storyText: "Samphire, Sea Peas, Saltbush, 10 rungs to the top. Don\u2019t think
+    about Mum"
   description: 
-  character: {fileID: 976692269}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1043,11 +1104,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 31
+  itemId: 49
   indentLevel: 0
-  storyText: '*sob*'
+  storyText: "\u2026"
   description: 
-  character: {fileID: 799597956}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1070,11 +1131,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 30
+  itemId: 48
   indentLevel: 0
-  storyText: Who is it- Harper?
+  storyText: "I\u2026. What?"
   description: 
-  character: {fileID: 976692269}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1097,11 +1158,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 47
   indentLevel: 0
-  storyText: '*knocks*'
+  storyText: 'Samph- OW! '
   description: 
-  character: {fileID: 1075416931}
+  character: {fileID: 684160128}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1194,18 +1255,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 624723751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 17
+  itemId: 46
   indentLevel: 0
-  targetFlowchart: {fileID: 624723777}
-  targetBlock: {fileID: 624723771}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  storyText: "\u2026. I\u2019ll be back tomorrow."
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &624723770
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1242,8 +1309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 319
-    y: 349
+    x: 320
+    y: 252
     width: 79
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1265,26 +1332,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 624723751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 312
-    y: 262
-    width: 92
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 12
-  blockName: Errands
+  itemId: 45
+  indentLevel: 0
+  storyText: "\u2026 This\u2026. This has been chiselled\u2026"
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 624723752}
-  - {fileID: 624723753}
-  - {fileID: 624723769}
-  suppressAllAutoSelections: 0
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &624723773
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1301,24 +1366,31 @@ MonoBehaviour:
     serializedVersion: 2
     x: 316
     y: 169.93617
-    width: 87
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 3
-  blockName: Return
+  blockName: Beach
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 624723764}
-  - {fileID: 624723763}
-  - {fileID: 624723762}
-  - {fileID: 624723761}
+  - {fileID: 624723754}
+  - {fileID: 624723779}
   - {fileID: 624723760}
   - {fileID: 624723759}
+  - {fileID: 624723761}
+  - {fileID: 624723762}
+  - {fileID: 624723753}
+  - {fileID: 624723752}
+  - {fileID: 624723764}
+  - {fileID: 624723763}
+  - {fileID: 624723772}
+  - {fileID: 624723780}
   - {fileID: 624723756}
   - {fileID: 624723755}
-  - {fileID: 624723754}
+  - {fileID: 624723781}
+  - {fileID: 624723769}
   - {fileID: 624723758}
   suppressAllAutoSelections: 0
 --- !u!114 &624723774
@@ -1393,10 +1465,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -129, y: -2}
+  scrollPos: {x: -118, y: 18}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 391
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -1405,9 +1477,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 624723771}
-  selectedCommands:
-  - {fileID: 624723757}
+  - {fileID: 624723773}
+  selectedCommands: []
   variables:
   - {fileID: 624723766}
   - {fileID: 624723765}
@@ -1435,106 +1506,156 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &799597955
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 799597957}
-  - component: {fileID: 799597956}
-  m_Layer: 0
-  m_Name: Harper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &799597956
+--- !u!114 &624723779
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799597955}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  storyText: 'Samphire, Sea Peas, Saltbush. I''m fine. Samphire, Sea Peas, Saltbush. '
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723780
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  storyText: "This used to be something\u2026. Josie did say there was a storm and
+    a ship crash that destroyed a lot of the town\u2019s original architecture \u2026."
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723781
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  storyText: 'Crap, I have to go, Josie will be worried about me. '
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!1001 &684160127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 884238770552103408, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_Name
+      value: Harper
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+--- !u!114 &684160128 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 884238770552103411, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+  m_PrefabInstance: {fileID: 684160127}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Harper
-  nameColor: {r: 0.14960839, g: 0.7735849, b: 0.4362578, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &799597957
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799597955}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &976692268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 976692270}
-  - component: {fileID: 976692269}
-  m_Layer: 0
-  m_Name: Old Woman Josie
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &976692269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 976692268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: Old Woman Josie
-  nameColor: {r: 0.43529412, g: 0.3254902, b: 0.69411767, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &976692270
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 976692268}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074529531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,57 +1702,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1075416930
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1075416932}
-  - component: {fileID: 1075416931}
-  m_Layer: 0
-  m_Name: ????????
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1075416931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075416930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: ????????
-  nameColor: {r: 0, g: 0, b: 0, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &1075416932
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075416930}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1619265999
 PrefabInstance:
@@ -1668,6 +1739,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -38.371094
       objectReference: {fileID: 0}
+    - target: {fileID: 22488900, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 429.6876
+      objectReference: {fileID: 0}
     - target: {fileID: 22488902, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1678,7 +1753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22488902, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 22488902, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1876,7 +1951,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 45, y: 130, z: 90}
 --- !u!1 &1907861326
 GameObject:
@@ -1992,7 +2067,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 20.146, y: 195.09, z: 0.001}
 --- !u!1 &1938688459
 GameObject:
@@ -2067,5 +2142,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

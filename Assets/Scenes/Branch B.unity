@@ -547,56 +547,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1113767939
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1113767941}
-  - component: {fileID: 1113767940}
-  m_Layer: 0
-  m_Name: Old Woman Josie
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1113767940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113767939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: Old Woman Josie
-  nameColor: {r: 0.43529412, g: 0.3254902, b: 0.69411767, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &1113767941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113767939}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1192677091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -631,6 +581,10 @@ PrefabInstance:
     - target: {fileID: 22488894, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -38.371094
+      objectReference: {fileID: 0}
+    - target: {fileID: 22488900, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 429.6876
       objectReference: {fileID: 0}
     - target: {fileID: 22488902, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_Pivot.x
@@ -749,6 +703,74 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1207713476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572163740113880066, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+      propertyPath: m_Name
+      value: Old Woman Josie
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+--- !u!114 &1207713477 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6572163740113880067, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
+  m_PrefabInstance: {fileID: 1207713476}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1251282018
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,57 +819,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1266915364
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1266915366}
-  - component: {fileID: 1266915365}
-  m_Layer: 0
-  m_Name: Harper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1266915365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266915364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: Harper
-  nameColor: {r: 0.14960839, g: 0.7735849, b: 0.4362578, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &1266915366
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266915364}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1365864404
 PrefabInstance:
@@ -1190,6 +1162,74 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
+--- !u!1001 &1406741220
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 884238770552103408, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_Name
+      value: Harper
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+--- !u!114 &1406741221 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 884238770552103411, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
+  m_PrefabInstance: {fileID: 1406741220}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1427170164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1238,7 +1278,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1429147574
 GameObject:
@@ -1366,7 +1406,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1682261757
 PrefabInstance:
@@ -1541,7 +1581,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '*sigh* Back to Josie''s, and then it''s foraging time.'
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1566,10 +1606,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: (bread milk ham cheese fish saltbush, got bread, milk ham cheese fish
-    saltbush)
+  storyText: (bread milk ham cheese fish, down to beach, got bread, milk ham cheese
+    fish, down to beach)
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1626,7 +1666,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Yeah. Sure.
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1694,9 +1734,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: Are you sure you'll be fine dear? I worry about you.
+  storyText: Are you sure you'll be fine dear? I can come with?
   description: 
-  character: {fileID: 1113767940}
+  character: {fileID: 1207713477}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1813,7 +1853,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I guess.
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1867,7 +1907,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I won't.
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1921,7 +1961,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I'm fine.
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2015,10 +2055,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: (milk ham cheese fish saltbush, why isn't the list in a nicer order?
-    milk cheese fish saltbush)
+  storyText: (milk ham cheese fish, down to beach, why isn't the list in a nicer
+    order? milk cheese fish saltbush)
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2043,9 +2083,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: (milk cheese fish saltbush, only too left, fish saltbush)
+  storyText: (milk cheese fish, down to beach, only fish left then it's down to beach)
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2070,9 +2110,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: (last one in town. Just saltbush left.)
+  storyText: (Last one in town. Time to head back toJosie's.)
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2208,9 +2248,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1773698539}
+  - {fileID: 1773698545}
   selectedCommands:
-  - {fileID: 1773698536}
+  - {fileID: 1773698528}
   variables:
   - {fileID: 1773698531}
   - {fileID: 1773698530}
@@ -2337,7 +2377,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Bye. '
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2362,9 +2402,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: (bread milk ham cheese fish saltbush)
+  storyText: (bread milk ham cheese fish, down to beach)
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2391,7 +2431,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'I will. '
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2418,7 +2458,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Okay.... Take care, will you? This old woman worries.
   description: 
-  character: {fileID: 1113767940}
+  character: {fileID: 1207713477}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2443,10 +2483,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: "(bread milk ham cheese fish saltbush, don\u2019t think about the year
-    don't think about family bread milk ham cheese fish saltbush)"
+  storyText: "(bread milk ham cheese fish, down to beach, don\u2019t think about
+    the year don't think about family bread milk ham cheese fish, down to beach)"
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2473,7 +2513,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'I will '
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2501,7 +2541,7 @@ MonoBehaviour:
   storyText: ah-*sigh* okay... come back and empty the basket before heading to the
     beach, okay? No need to lug all that down there.
   description: 
-  character: {fileID: 1113767940}
+  character: {fileID: 1207713477}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2526,9 +2566,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: (bread milk ham cheese fish saltbush)
+  storyText: (bread milk ham cheese fish, down to beach)
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2555,7 +2595,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I'm fine Josie.
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2581,9 +2621,9 @@ MonoBehaviour:
   itemId: 51
   indentLevel: 0
   storyText: (don't think about being stuck, just think about the list bread milk
-    ham cheese fish saltbush)
+    ham cheese fish, down to beach)
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2608,9 +2648,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: "I\u2019m fine."
+  storyText: "I\u2019m fine. Stay here Josie."
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2639,7 +2679,7 @@ MonoBehaviour:
     lovey, I may be old but I can still help, you need to sit down and let yourself
     feel.
   description: 
-  character: {fileID: 1113767940}
+  character: {fileID: 1207713477}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2685,9 +2725,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: '(bread milk ham cheese fish saltbush, bread milk ham cheese fish saltbush) '
+  storyText: '(bread milk ham cheese fish, down to beach, bread milk ham cheese fish,
+    down to beach) '
   description: 
-  character: {fileID: 1266915365}
+  character: {fileID: 1406741221}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2746,5 +2787,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
