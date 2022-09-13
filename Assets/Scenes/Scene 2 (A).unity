@@ -184,7 +184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -329,7 +329,6 @@ GameObject:
   - component: {fileID: 965841017}
   - component: {fileID: 965841021}
   - component: {fileID: 965841018}
-  - component: {fileID: 965841026}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -408,7 +407,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2453113842641918038}
   selectedCommands:
-  - {fileID: 965841006}
+  - {fileID: 965841025}
   variables:
   - {fileID: 965841003}
   - {fileID: 965841002}
@@ -794,7 +793,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '*knocks*'
   description: 
-  character: {fileID: 2023121821}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1052,23 +1051,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &965841026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965840997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 52
-  indentLevel: 0
-  soundClip: {fileID: 0}
-  volume: 1
-  waitUntilFinished: 1
 --- !u!114 &965841027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1744,7 +1726,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6572163740113880064, guid: 4bd4eb6a58715b547b0e978029da4ee7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1948,56 +1930,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
---- !u!1 &2023121820
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2023121822}
-  - component: {fileID: 2023121821}
-  m_Layer: 0
-  m_Name: ????????
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2023121821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023121820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: ????????
-  nameColor: {r: 0, g: 0, b: 0, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &2023121822
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023121820}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2051695648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,7 +2229,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 965841027}
-  - {fileID: 965841026}
   - {fileID: 965841025}
   - {fileID: 965841024}
   - {fileID: 965841023}
