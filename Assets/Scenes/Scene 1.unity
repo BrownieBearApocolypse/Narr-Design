@@ -424,7 +424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000015258789
+      value: 14.299969
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1140,9 +1140,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 965841011}
+  - {fileID: 2453113842641918033}
   selectedCommands:
-  - {fileID: 965841017}
+  - {fileID: 965841009}
   variables:
   - {fileID: 965841005}
   - {fileID: 965841004}
