@@ -553,6 +553,7 @@ Transform:
   - {fileID: 1251282020}
   - {fileID: 1406741222}
   - {fileID: 1207713478}
+  - {fileID: 859907488}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -716,6 +717,79 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &859907487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 613229944}
+    m_Modifications:
+    - target: {fileID: 3137566513677806656, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_Name
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+--- !u!4 &859907488 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+  m_PrefabInstance: {fileID: 859907487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &859907489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3137566513677806659, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+  m_PrefabInstance: {fileID: 859907487}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &890516462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,6 +1917,11 @@ GameObject:
   - component: {fileID: 1773698528}
   - component: {fileID: 1773698536}
   - component: {fileID: 1773698568}
+  - component: {fileID: 1773698578}
+  - component: {fileID: 1773698577}
+  - component: {fileID: 1773698576}
+  - component: {fileID: 1773698575}
+  - component: {fileID: 1773698569}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1949,9 +2028,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  storyText: Yeah. Sure.
+  storyText: Good and almost straight out of the ocean! How everyone wants their
+    fish.
   description: 
-  character: {fileID: 1406741221}
+  character: {fileID: 859907489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2136,9 +2216,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: I guess.
+  storyText: You'd think with the internet the creator would have come up with better
+    names for the shop keepers.
   description: 
-  character: {fileID: 1406741221}
+  character: {fileID: 859907489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2272,7 +2353,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 309.36987
-    y: 267.36987
+    y: 268.68567
     width: 106.57893
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2286,17 +2367,22 @@ MonoBehaviour:
   - {fileID: 1773698557}
   - {fileID: 1773698542}
   - {fileID: 1773698541}
+  - {fileID: 1773698578}
   - {fileID: 1773698547}
   - {fileID: 1773698558}
+  - {fileID: 1773698577}
   - {fileID: 1773698540}
   - {fileID: 1773698548}
   - {fileID: 1773698556}
   - {fileID: 1773698544}
   - {fileID: 1773698543}
+  - {fileID: 1773698576}
   - {fileID: 1773698549}
   - {fileID: 1773698546}
   - {fileID: 1773698532}
+  - {fileID: 1773698575}
   - {fileID: 1773698528}
+  - {fileID: 1773698569}
   - {fileID: 1773698568}
   - {fileID: 1773698537}
   suppressAllAutoSelections: 0
@@ -2536,7 +2622,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1773698545}
   selectedCommands:
-  - {fileID: 1773698568}
+  - {fileID: 1773698569}
   variables:
   - {fileID: 1773698531}
   - {fileID: 1773698530}
@@ -2919,6 +3005,34 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1773698569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773698527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 85
+  indentLevel: 0
+  storyText: And the basket is empty. To the final errand of the day, I wonder what
+    could happen?
+  description: 
+  character: {fileID: 859907489}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1773698570
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3042,6 +3156,116 @@ MonoBehaviour:
     down to beach) '
   description: 
   character: {fileID: 1406741221}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1773698575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773698527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 84
+  indentLevel: 0
+  storyText: Yeah. Sure.
+  description: 
+  character: {fileID: 1406741221}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1773698576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773698527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 83
+  indentLevel: 0
+  storyText: While the milk and cheese are added to the basket I will clarify, this
+    is a lie. Harper is lying.
+  description: 
+  character: {fileID: 859907489}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1773698577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773698527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 82
+  indentLevel: 0
+  storyText: I guess.
+  description: 
+  character: {fileID: 1406741221}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1773698578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773698527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 81
+  indentLevel: 0
+  storyText: And Harper add the bread to their basket, and their thoughts to a little
+    box in their head labelled "Do Not Touch"
+  description: 
+  character: {fileID: 859907489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1

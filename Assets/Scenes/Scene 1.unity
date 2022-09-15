@@ -1210,6 +1210,8 @@ GameObject:
   - component: {fileID: 965841070}
   - component: {fileID: 965841067}
   - component: {fileID: 965841068}
+  - component: {fileID: 965841071}
+  - component: {fileID: 965841072}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1279,7 +1281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -310.1727, y: -32.070293}
+  scrollPos: {x: -150.41653, y: -16.21664}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1291,9 +1293,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 965841011}
-  selectedCommands:
-  - {fileID: 965841067}
+  - {fileID: 965841010}
+  selectedCommands: []
   variables:
   - {fileID: 965841005}
   - {fileID: 965841004}
@@ -1451,6 +1452,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 965841072}
   - {fileID: 965841006}
   - {fileID: 965841038}
   - {fileID: 965841037}
@@ -2356,7 +2358,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1588997725}
+    gameObjectVal: {fileID: 590700623}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -2498,7 +2500,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1362364473}
+    gameObjectVal: {fileID: 590700623}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -3070,6 +3072,55 @@ MonoBehaviour:
   itemId: 98
   indentLevel: 0
   storyText: It's tragic, isn't it?
+  description: 
+  character: {fileID: 898193534}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 101
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 731549180}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &965841072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 102
+  indentLevel: 0
+  storyText: We open the evening after Josie's talk with Harper, the two of them
+    are enjoying a nice cup of tea.
   description: 
   character: {fileID: 898193534}
   portrait: {fileID: 0}
@@ -4156,6 +4207,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 965841054}
   - {fileID: 965841012}
+  - {fileID: 965841071}
   suppressAllAutoSelections: 0
 --- !u!114 &2453113842641918046
 MonoBehaviour:

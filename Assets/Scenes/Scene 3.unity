@@ -891,6 +891,17 @@ GameObject:
   - component: {fileID: 624723784}
   - component: {fileID: 624723783}
   - component: {fileID: 624723782}
+  - component: {fileID: 624723794}
+  - component: {fileID: 624723793}
+  - component: {fileID: 624723792}
+  - component: {fileID: 624723791}
+  - component: {fileID: 624723790}
+  - component: {fileID: 624723789}
+  - component: {fileID: 624723788}
+  - component: {fileID: 624723787}
+  - component: {fileID: 624723786}
+  - component: {fileID: 624723785}
+  - component: {fileID: 624723795}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1402,9 +1413,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: "\u2026 This\u2026. This has been chiseled\u2026"
+  storyText: 
   description: 
-  character: {fileID: 684160128}
+  character: {fileID: 1750832596}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1450,15 +1461,26 @@ MonoBehaviour:
   - {fileID: 624723752}
   - {fileID: 624723784}
   - {fileID: 624723764}
+  - {fileID: 624723794}
+  - {fileID: 624723793}
   - {fileID: 624723763}
+  - {fileID: 624723792}
   - {fileID: 624723772}
+  - {fileID: 624723791}
+  - {fileID: 624723795}
   - {fileID: 624723782}
   - {fileID: 624723783}
+  - {fileID: 624723790}
   - {fileID: 624723780}
   - {fileID: 624723756}
+  - {fileID: 624723789}
   - {fileID: 624723755}
+  - {fileID: 624723787}
+  - {fileID: 624723788}
   - {fileID: 624723781}
   - {fileID: 624723769}
+  - {fileID: 624723785}
+  - {fileID: 624723786}
   - {fileID: 624723758}
   suppressAllAutoSelections: 0
 --- !u!114 &624723774
@@ -1547,7 +1569,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 624723773}
   selectedCommands:
-  - {fileID: 624723769}
+  - {fileID: 624723786}
   variables:
   - {fileID: 624723766}
   - {fileID: 624723765}
@@ -1616,10 +1638,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: "This used to be something\u2026. Josie did say there was a storm and
-    a ship crash that destroyed a lot of the town\u2019s original architecture \u2026."
+  storyText: 
   description: 
-  character: {fileID: 684160128}
+  character: {fileID: 1750832596}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1671,9 +1692,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: ..... Over there!
+  storyText: 
   description: 
-  character: {fileID: 684160128}
+  character: {fileID: 1750832596}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1726,6 +1747,304 @@ MonoBehaviour:
   itemId: 57
   indentLevel: 0
   storyText: 'Samph- OW! '
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 1750832596}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  storyText: And Harper leave, likely to return very soon.
+  description: 
+  character: {fileID: 1750832596}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 1750832596}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 66
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 1750832596}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 65
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 1750832596}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  indentLevel: 0
+  storyText: "This used to be something\u2026. Josie did say there was a storm and
+    a ship crash that destroyed a lot of the town\u2019s original architecture \u2026."
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+  storyText: Wait...
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  storyText: "\u2026 This\u2026. This has been chiseled\u2026"
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  storyText: Hold on now, that looks interesting
+  description: 
+  character: {fileID: 1750832596}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  indentLevel: 0
+  storyText: Oh that looks like it hurt
+  description: 
+  character: {fileID: 1750832596}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 0
+  storyText: ..... Over there!
   description: 
   character: {fileID: 684160128}
   portrait: {fileID: 0}
@@ -2015,6 +2334,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1750832594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1893299113}
+    m_Modifications:
+    - target: {fileID: 3137566513677806656, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_Name
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 173.4636
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.559052
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -443.3772
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+--- !u!4 &1750832595 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+  m_PrefabInstance: {fileID: 1750832594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1750832596 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3137566513677806659, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+  m_PrefabInstance: {fileID: 1750832594}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1886253968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,6 +2529,7 @@ Transform:
   m_Children:
   - {fileID: 684160129}
   - {fileID: 567672002}
+  - {fileID: 1750832595}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

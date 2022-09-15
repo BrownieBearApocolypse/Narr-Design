@@ -337,6 +337,79 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 614999353317372930, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
   m_PrefabInstance: {fileID: 262371857}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &645989643
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1774130097}
+    m_Modifications:
+    - target: {fileID: 3137566513677806656, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_Name
+      value: Narrator
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 173.4636
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.559052
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -443.3772
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+--- !u!4 &645989644 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+  m_PrefabInstance: {fileID: 645989643}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &645989645 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3137566513677806659, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
+  m_PrefabInstance: {fileID: 645989643}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &653260035
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 884238770552103410, guid: 2d46559c4a9ecaf47945a51083cde0ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -549,6 +622,13 @@ GameObject:
   - component: {fileID: 965841021}
   - component: {fileID: 965841018}
   - component: {fileID: 965841026}
+  - component: {fileID: 965841034}
+  - component: {fileID: 965841028}
+  - component: {fileID: 965841032}
+  - component: {fileID: 965841033}
+  - component: {fileID: 965841031}
+  - component: {fileID: 965841029}
+  - component: {fileID: 965841030}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -625,7 +705,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2453113842641918033}
+  - {fileID: 2453113842641918038}
   selectedCommands: []
   variables:
   - {fileID: 965841003}
@@ -875,7 +955,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: You're alright sweetheart, you're alright
+  storyText: You're alright sweetheart, it will be okay. I've got you honey; I've
+    got you.
   description: 
   character: {fileID: 1833949406}
   portrait: {fileID: 0}
@@ -929,7 +1010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: Oh dearie, it will be okay. I've got you honey; I've got you.
+  storyText: Oh dearie-
   description: 
   character: {fileID: 1833949406}
   portrait: {fileID: 0}
@@ -956,7 +1037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: '*sob*'
+  storyText: H-Hey I- *sob*
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1010,9 +1091,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: '*knocks*'
+  storyText: (deep breaths Harper, you can do this)
   description: 
-  character: {fileID: 0}
+  character: {fileID: 722211365}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1311,10 +1392,204 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: Harper worries me, ever since they came back, they've been so quiet,
-    always working, never still... *sigh* I need to pick up bread too...
+  storyText: ... I forgot to write down the forages... its so hard getting there
+    to harvest the plants in my old age...
   description: 
   character: {fileID: 1833949406}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  storyText: And we zoom out, getting further away as Harper and Josie reunit, rain
+    pattering gently on the roof.
+  description: 
+  character: {fileID: 645989645}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  storyText: 'Or maybe something else will happen......
+
+    What do you think?'
+  description: 
+  character: {fileID: 645989645}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  storyText: And off they go, maybe being away from Josie will help Harper heal...
+  description: 
+  character: {fileID: 645989645}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  storyText: Harper worries me, ever since they came back, they've been so quiet,
+    always working, never still... *sigh*
+  description: 
+  character: {fileID: 1833949406}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  storyText: It will be ready.
+  description: 
+  character: {fileID: 645989645}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  storyText: In the dark of the night, the soul can heal and rest, recharge. and
+    when the sun rises again,
+  description: 
+  character: {fileID: 645989645}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  storyText: '*knocks*'
+  description: 
+  character: {fileID: 722211365}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1620,6 +1895,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1833949407}
+  - {fileID: 645989644}
   - {fileID: 722211366}
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -1955,7 +2231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.299984
+      value: 0.000011444092
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2465,7 +2741,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 316
-    y: 169.93617
+    y: 170.93617
     width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2476,6 +2752,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 965841016}
+  - {fileID: 965841034}
   - {fileID: 965841015}
   - {fileID: 965841014}
   - {fileID: 965841013}
@@ -2484,6 +2761,9 @@ MonoBehaviour:
   - {fileID: 965841009}
   - {fileID: 965841008}
   - {fileID: 965841007}
+  - {fileID: 965841028}
+  - {fileID: 965841033}
+  - {fileID: 965841032}
   - {fileID: 965841010}
   suppressAllAutoSelections: 0
 --- !u!114 &2453113842641918038
@@ -2511,6 +2791,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 965841031}
   - {fileID: 965841027}
   - {fileID: 965841024}
   - {fileID: 965841025}
@@ -2524,6 +2805,8 @@ MonoBehaviour:
   - {fileID: 965841018}
   - {fileID: 965841004}
   - {fileID: 965841006}
+  - {fileID: 965841030}
+  - {fileID: 965841029}
   - {fileID: 2453113842641918031}
   suppressAllAutoSelections: 0
 --- !u!114 &2453113842641918046
