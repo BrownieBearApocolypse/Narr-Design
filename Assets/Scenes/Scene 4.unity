@@ -969,7 +969,6 @@ GameObject:
   - component: {fileID: 1084442133}
   - component: {fileID: 1084442131}
   - component: {fileID: 1084442130}
-  - component: {fileID: 1084442165}
   - component: {fileID: 1084442164}
   - component: {fileID: 1084442163}
   - component: {fileID: 1084442162}
@@ -989,6 +988,7 @@ GameObject:
   - component: {fileID: 1084442132}
   - component: {fileID: 1084442129}
   - component: {fileID: 1084442128}
+  - component: {fileID: 1084442160}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1232,6 +1232,7 @@ MonoBehaviour:
   description: pictures need to go here
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1084442160}
   - {fileID: 1084442132}
   suppressAllAutoSelections: 0
 --- !u!114 &1084442138
@@ -1519,7 +1520,6 @@ MonoBehaviour:
   - {fileID: 1084442164}
   - {fileID: 1084442162}
   - {fileID: 1084442163}
-  - {fileID: 1084442165}
   - {fileID: 1084442134}
   suppressAllAutoSelections: 0
 --- !u!114 &1084442150
@@ -1606,7 +1606,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1084442136}
+  - {fileID: 1084442159}
   selectedCommands: []
   variables:
   - {fileID: 1084442142}
@@ -1770,6 +1770,36 @@ MonoBehaviour:
   - {fileID: 1084442157}
   - {fileID: 1084442156}
   suppressAllAutoSelections: 0
+--- !u!114 &1084442160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084442127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 0
+  storyText: "...need something to make a lever\u2026 most of the pieces look like
+    I can lift or roll them so long as I have something to get them separated\u2026.
+    Probably need a shovel too, so that I can dig out what\u2019s been buried and
+    make channels\u2026."
+  description: 
+  character: {fileID: 1586541055}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1084442162
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1842,36 +1872,6 @@ MonoBehaviour:
   storyText: "\u2026 "
   description: 
   character: {fileID: 334018548}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1084442165
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084442127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  storyText: "need something to make a lever\u2026 most of the pieces look like I
-    can lift or roll them so long as I have something to get them separated\u2026.
-    Probably need a shovel too, so that I can dig out what\u2019s been buried and
-    make channels\u2026."
-  description: 
-  character: {fileID: 1586541055}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
