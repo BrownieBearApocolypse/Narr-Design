@@ -1401,7 +1401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000011444092
+      value: 14.299965
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2034,7 +2034,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698536
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2535,7 +2535,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1773698545}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1773698568}
   variables:
   - {fileID: 1773698531}
   - {fileID: 1773698530}
@@ -2893,7 +2894,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698568
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

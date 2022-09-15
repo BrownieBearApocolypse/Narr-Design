@@ -1203,6 +1203,13 @@ GameObject:
   - component: {fileID: 965841062}
   - component: {fileID: 965841063}
   - component: {fileID: 965841061}
+  - component: {fileID: 965841066}
+  - component: {fileID: 965841065}
+  - component: {fileID: 965841064}
+  - component: {fileID: 965841069}
+  - component: {fileID: 965841070}
+  - component: {fileID: 965841067}
+  - component: {fileID: 965841068}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1241,7 +1248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315.91632
     y: 63.463932
-    width: 91.17647
+    width: 91.46341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1272,11 +1279,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -108.530174, y: -132.27214}
+  scrollPos: {x: -310.1727, y: -32.070293}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1285,7 +1292,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 965841011}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 965841067}
   variables:
   - {fileID: 965841005}
   - {fileID: 965841004}
@@ -1404,9 +1412,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: ....
+  storyText: We open the evening after Josie's talk with Harper, the two of them
+    are enjoying a nice cup of tea.
   description: 
-  character: {fileID: 598177717}
+  character: {fileID: 898193534}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1433,7 +1442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 292.77203
     y: 306.075
-    width: 135.88234
+    width: 135.36584
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1445,12 +1454,15 @@ MonoBehaviour:
   - {fileID: 965841006}
   - {fileID: 965841038}
   - {fileID: 965841037}
+  - {fileID: 965841066}
   - {fileID: 965841036}
   - {fileID: 965841035}
   - {fileID: 965841034}
   - {fileID: 965841059}
   - {fileID: 965841033}
+  - {fileID: 965841064}
   - {fileID: 965841032}
+  - {fileID: 965841065}
   - {fileID: 965841043}
   - {fileID: 965841031}
   - {fileID: 965841053}
@@ -1529,9 +1541,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 133.59897
-    y: 394.80652
-    width: 114.70587
+    x: 134.77544
+    y: 399.51245
+    width: 112.195114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1572,7 +1584,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 457.53745
     y: 388.1273
-    width: 114.70587
+    width: 112.195114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1584,12 +1596,16 @@ MonoBehaviour:
   - {fileID: 965841040}
   - {fileID: 965841045}
   - {fileID: 965841044}
+  - {fileID: 965841070}
   - {fileID: 965841021}
+  - {fileID: 965841069}
   - {fileID: 965841020}
   - {fileID: 965841019}
   - {fileID: 965841018}
   - {fileID: 965841056}
   - {fileID: 965841017}
+  - {fileID: 965841068}
+  - {fileID: 965841067}
   - {fileID: 965841013}
   suppressAllAutoSelections: 0
 --- !u!114 &965841012
@@ -1648,9 +1664,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 470.7125
-    y: 485.34186
-    width: 91.17647
+    x: 468.27347
+    y: 458.51257
+    width: 91.46341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1828,7 +1844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: '*sob*'
+  storyText: ....
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2046,9 +2062,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: '*slam*'
+  storyText: Harper slams their hands on the table, rattleing the porcelien... They
+    are angry...
   description: 
-  character: {fileID: 1514689618}
+  character: {fileID: 898193534}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2127,7 +2144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: ... I'm never getting to see my family again, am I?
+  storyText: '*sniffle* I-'
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2874,6 +2891,197 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &965841064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  indentLevel: 0
+  storyText: ......
+  description: 
+  character: {fileID: 1514689618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 95
+  indentLevel: 0
+  storyText: ... I'm never getting to see my family again, am I?
+  description: 
+  character: {fileID: 1514689618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  indentLevel: 0
+  storyText: .....
+  description: 
+  character: {fileID: 1514689618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 99
+  indentLevel: 0
+  storyText: I worry for them, I really do.
+  description: 
+  character: {fileID: 898193534}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 100
+  indentLevel: 0
+  storyText: 'Such a young teen seperated from their family with no reunion in sight.
+
+    ...'
+  description: 
+  character: {fileID: 898193534}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 97
+  indentLevel: 0
+  storyText: '*sob*'
+  description: 
+  character: {fileID: 1514689618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 98
+  indentLevel: 0
+  storyText: It's tragic, isn't it?
+  description: 
+  character: {fileID: 898193534}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!4 &1187106146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}
@@ -3799,7 +4007,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 145.31186
     y: 474.3569
-    width: 91.17647
+    width: 91.46341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3849,7 +4057,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276.5809
     y: 157.91483
-    width: 168.82352
+    width: 169.51218
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3937,7 +4145,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286.07642
     y: 228.66306
-    width: 153.52939
+    width: 151.21948
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
