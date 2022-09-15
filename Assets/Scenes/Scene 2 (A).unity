@@ -500,6 +500,7 @@ GameObject:
   - component: {fileID: 965841017}
   - component: {fileID: 965841021}
   - component: {fileID: 965841018}
+  - component: {fileID: 965841026}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -638,7 +639,7 @@ MonoBehaviour:
   value: Coins
 --- !u!114 &965841004
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -665,7 +666,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841005
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -684,7 +685,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &965841006
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -711,7 +712,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841007
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -738,7 +739,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841008
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -766,7 +767,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841009
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -881,7 +882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: Oh dearie, it will be okay. I've got you honey; I've got you
+  storyText: Oh dearie, it will be okay. I've got you honey; I've got you.
   description: 
   character: {fileID: 1833949406}
   portrait: {fileID: 0}
@@ -977,7 +978,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841017
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1005,7 +1006,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841018
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1032,7 +1033,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841019
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1044,8 +1045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: "(God I\u2019ve been such as asshole to her, she hasn't exactly been
-    the easiest to live with since I came back though) "
+  storyText: "(God I\u2019ve been such as asshole to her, but she hasn't exactly
+    been the easiest to live with since I came back though) "
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1060,7 +1061,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841020
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1087,7 +1088,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841021
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1114,7 +1115,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841022
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1142,7 +1143,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841023
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1170,7 +1171,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841024
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1182,7 +1183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: "\u2026 hey Josie... anything else we need to do today? \t   "
+  storyText: '*yawns* '
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1197,7 +1198,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841025
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1222,9 +1223,36 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &965841027
+--- !u!114 &965841026
 MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  storyText: "\u2026 hey Josie... anything else we need to do today? \t   "
+  description: 
+  character: {fileID: 722211365}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841027
+MonoBehaviour:
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2426,7 +2454,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 312
-    y: 262
+    y: 266
     width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2437,8 +2465,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 965841027}
-  - {fileID: 965841025}
   - {fileID: 965841024}
+  - {fileID: 965841025}
+  - {fileID: 965841026}
   - {fileID: 965841023}
   - {fileID: 965841022}
   - {fileID: 965841021}

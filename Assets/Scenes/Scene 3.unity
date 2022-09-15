@@ -888,6 +888,9 @@ GameObject:
   - component: {fileID: 624723755}
   - component: {fileID: 624723753}
   - component: {fileID: 624723752}
+  - component: {fileID: 624723784}
+  - component: {fileID: 624723783}
+  - component: {fileID: 624723782}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1222,7 +1225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: 'Samph- OW! '
+  storyText: Ow, ow fuck that hurt
   description: 
   character: {fileID: 684160128}
   portrait: {fileID: 0}
@@ -1399,7 +1402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: "\u2026 This\u2026. This has been chiselled\u2026"
+  storyText: "\u2026 This\u2026. This has been chiseled\u2026"
   description: 
   character: {fileID: 684160128}
   portrait: {fileID: 0}
@@ -1426,8 +1429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 316
-    y: 169.93617
+    x: 318
+    y: 149.93617
     width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1445,9 +1448,12 @@ MonoBehaviour:
   - {fileID: 624723762}
   - {fileID: 624723753}
   - {fileID: 624723752}
+  - {fileID: 624723784}
   - {fileID: 624723764}
   - {fileID: 624723763}
   - {fileID: 624723772}
+  - {fileID: 624723782}
+  - {fileID: 624723783}
   - {fileID: 624723780}
   - {fileID: 624723756}
   - {fileID: 624723755}
@@ -1540,7 +1546,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 624723773}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 624723769}
   variables:
   - {fileID: 624723766}
   - {fileID: 624723765}
@@ -1638,6 +1645,87 @@ MonoBehaviour:
   itemId: 42
   indentLevel: 0
   storyText: 'Crap, I have to go, Josie will be worried about me. '
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  storyText: ..... Over there!
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  storyText: It fits.....
+  description: 
+  character: {fileID: 684160128}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &624723784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624723751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  storyText: 'Samph- OW! '
   description: 
   character: {fileID: 684160128}
   portrait: {fileID: 0}

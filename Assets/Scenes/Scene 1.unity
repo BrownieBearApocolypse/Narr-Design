@@ -1061,6 +1061,10 @@ GameObject:
   - component: {fileID: 965841053}
   - component: {fileID: 965841055}
   - component: {fileID: 965841054}
+  - component: {fileID: 965841059}
+  - component: {fileID: 965841058}
+  - component: {fileID: 965841057}
+  - component: {fileID: 965841056}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1140,9 +1144,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2453113842641918033}
+  - {fileID: 965841011}
   selectedCommands:
-  - {fileID: 965841009}
+  - {fileID: 965841017}
   variables:
   - {fileID: 965841005}
   - {fileID: 965841004}
@@ -1305,6 +1309,7 @@ MonoBehaviour:
   - {fileID: 965841036}
   - {fileID: 965841035}
   - {fileID: 965841034}
+  - {fileID: 965841059}
   - {fileID: 965841033}
   - {fileID: 965841032}
   - {fileID: 965841043}
@@ -1400,6 +1405,8 @@ MonoBehaviour:
   - {fileID: 965841047}
   - {fileID: 965841029}
   - {fileID: 965841028}
+  - {fileID: 965841058}
+  - {fileID: 965841057}
   - {fileID: 965841027}
   - {fileID: 965841030}
   - {fileID: 965841026}
@@ -1441,6 +1448,7 @@ MonoBehaviour:
   - {fileID: 965841020}
   - {fileID: 965841019}
   - {fileID: 965841018}
+  - {fileID: 965841056}
   - {fileID: 965841017}
   - {fileID: 965841013}
   suppressAllAutoSelections: 0
@@ -1570,7 +1578,7 @@ MonoBehaviour:
   itemId: 65
   indentLevel: 0
   storyText: "No matter what happens, I\u2019ll make sure you have a home, I promise.
-    Everthing will be okay"
+    Everything will be okay"
   description: 
   character: {fileID: 598177717}
   portrait: {fileID: 0}
@@ -1597,9 +1605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: "I\u2019ll do everything in my power to get you home. No matter what,
-    mark my words I\u2019ll get you home. You don\u2019t deserve this I\u2019m so
-    sorry.  "
+  storyText: It's okay dear,
   description: 
   character: {fileID: 598177717}
   portrait: {fileID: 0}
@@ -1873,9 +1879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: You don't know??!!  You've never known! This entire time I WAS RUNNING
-    AROUND DOING THESE USELESS JOBS FOR YOU AND YOU WEREN'T EVEN GOING TO GET ME
-    HOME
+  storyText: 'You don''t know??!!  '
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2495,7 +2499,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &965841054
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2516,7 +2520,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &965841055
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2535,6 +2539,117 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &965841056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 88
+  indentLevel: 0
+  storyText: "I\u2019ll do everything in my power to get you home. No matter what,
+    mark my words I\u2019ll get you home. You don\u2019t deserve this I\u2019m so
+    sorry.  "
+  description: 
+  character: {fileID: 598177717}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  indentLevel: 0
+  storyText: This entire time I WAS RUNNING AROUND DOING THESE USELESS JOBS FOR YOU
+    AND YOU WEREN'T EVEN GOING TO GET ME HOME
+  description: 
+  character: {fileID: 1514689618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  indentLevel: 0
+  storyText: 'You''ve never known! '
+  description: 
+  character: {fileID: 1514689618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &965841059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 85
+  indentLevel: 0
+  storyText: .....
+  description: 
+  character: {fileID: 598177717}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!4 &1187106146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3137566513677806658, guid: 205eb25d7c747974cabba9fe70ab3b87, type: 3}

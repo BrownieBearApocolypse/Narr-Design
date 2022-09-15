@@ -1762,6 +1762,7 @@ GameObject:
   - component: {fileID: 1773698532}
   - component: {fileID: 1773698528}
   - component: {fileID: 1773698536}
+  - component: {fileID: 1773698568}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -2029,7 +2030,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 321
     y: 354
-    width: 78.76711
+    width: 77.63157
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2192,7 +2193,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 309.36987
     y: 267.36987
-    width: 108.90408
+    width: 106.57893
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2216,6 +2217,7 @@ MonoBehaviour:
   - {fileID: 1773698546}
   - {fileID: 1773698532}
   - {fileID: 1773698528}
+  - {fileID: 1773698568}
   - {fileID: 1773698537}
   suppressAllAutoSelections: 0
 --- !u!114 &1773698546
@@ -2232,7 +2234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  storyText: Last of today's catch, ya got good timin kid.
+  storyText: Last of today's catch, ya got good timing kid.
   description: 
   character: {fileID: 1251282019}
   portrait: {fileID: 0}
@@ -2260,7 +2262,7 @@ MonoBehaviour:
   itemId: 70
   indentLevel: 0
   storyText: (milk ham cheese fish, down to beach, why isn't the list in a nicer
-    order? milk cheese fish saltbush)
+    order? milk cheese fish down to beach)
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2314,7 +2316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: (Last one in town. Time to head back toJosie's.)
+  storyText: (Last one in town. Time to head back to Josie's.)
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2343,7 +2345,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305
     y: 165.93617
-    width: 110.27396
+    width: 107.894714
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2414,7 +2416,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314
     y: 48
-    width: 91.09587
+    width: 89.47367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2440,11 +2442,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -8.40679, y: 48.714077}
+  scrollPos: {x: -27.494707, y: 20.433678}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.73000026
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2797,6 +2799,33 @@ MonoBehaviour:
   itemId: 55
   indentLevel: 0
   storyText: I'm fine Josie.
+  description: 
+  character: {fileID: 1406741221}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1773698568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773698527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 80
+  indentLevel: 0
+  storyText: Off we go again.
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
