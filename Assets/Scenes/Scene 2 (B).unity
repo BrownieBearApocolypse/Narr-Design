@@ -1970,7 +1970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: (bread milk ham cheese fish, down to beach, got bread, milk ham cheese
+  storyText: (Bread milk ham cheese fish, down to beach, got bread, milk ham cheese
     fish, down to beach)
   description: 
   character: {fileID: 1406741221}
@@ -2028,8 +2028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  storyText: Good and almost straight out of the ocean! How everyone wants their
-    fish.
+  storyText: The town's main produce, it would have been weird if on a grocery run
+    in a sea-side fishing town, Harper didn't pick up some fish.
   description: 
   character: {fileID: 859907489}
   portrait: {fileID: 0}
@@ -2099,7 +2099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: Are you sure you'll be fine dear? I can come with?
+  storyText: Are you sure you'll be fine dear? I can come with.
   description: 
   character: {fileID: 1207713477}
   portrait: {fileID: 0}
@@ -2216,8 +2216,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: You'd think with the internet the creator would have come up with better
-    names for the shop keepers.
+  storyText: And Harper continues along their journey, placing the goods gathered
+    in their basket.
   description: 
   character: {fileID: 859907489}
   portrait: {fileID: 0}
@@ -2352,8 +2352,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 309.36987
-    y: 268.68567
+    x: 289.63293
+    y: 255.52771
     width: 106.57893
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2622,7 +2622,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1773698545}
   selectedCommands:
-  - {fileID: 1773698569}
+  - {fileID: 1773698568}
   variables:
   - {fileID: 1773698531}
   - {fileID: 1773698530}
@@ -2692,7 +2692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: Aaaannnnndddd one loaf of my finest bread for a Old Woman Josie, don't
+  storyText: Aaaannnnndddd one loaf of my finest bread for our Old Woman Josie, don't
     let her say otherwise kid.
   description: 
   character: {fileID: 1681647280}
@@ -2774,7 +2774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: (bread milk ham cheese fish, down to beach)
+  storyText: (Bread milk ham cheese fish, down to beach)
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2855,8 +2855,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: "(bread milk ham cheese fish, down to beach, don\u2019t think about
-    the year don't think about family bread milk ham cheese fish, down to beach)"
+  storyText: "(Bread milk ham cheese fish, down to beach, don\u2019t think about
+    the year, don't think about family, bread milk ham cheese fish, down to beach)"
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2938,7 +2938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: (bread milk ham cheese fish, down to beach)
+  storyText: (Bread milk ham cheese fish, down to beach)
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -3020,7 +3020,7 @@ MonoBehaviour:
   itemId: 85
   indentLevel: 0
   storyText: And the basket is empty. To the final errand of the day, I wonder what
-    could happen?
+    ever could happen? We'll just have to find out...
   description: 
   character: {fileID: 859907489}
   portrait: {fileID: 0}
@@ -3103,7 +3103,7 @@ MonoBehaviour:
   itemId: 49
   indentLevel: 0
   storyText: Are you sure? I just, I worry about you. You've been overworking yourself
-    lovey, I may be old but I can still help, you need to sit down and let yourself
+    lovey, I may be old, but I can still help, you need to sit down and let yourself
     feel.
   description: 
   character: {fileID: 1207713477}
@@ -3152,7 +3152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: '(bread milk ham cheese fish, down to beach, bread milk ham cheese fish,
+  storyText: '(Bread milk ham cheese fish, down to beach, bread milk ham cheese fish,
     down to beach) '
   description: 
   character: {fileID: 1406741221}
@@ -3207,8 +3207,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: While the milk and cheese are added to the basket I will clarify, this
-    is a lie. Harper is lying.
+  storyText: While the milk and cheese are being added to the basket I will clarify;
+    this is a lie. Harper is lying.
   description: 
   character: {fileID: 859907489}
   portrait: {fileID: 0}
@@ -3262,7 +3262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: And Harper add the bread to their basket, and their thoughts to a little
+  storyText: Harper add the bread to their basket, and their thoughts to a little
     box in their head labelled "Do Not Touch"
   description: 
   character: {fileID: 859907489}

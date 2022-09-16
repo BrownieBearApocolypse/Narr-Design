@@ -594,7 +594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.299965
+      value: 14.299978
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -800,6 +800,130 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 318f0d1225b6b774f8b0a27390c6a6d1, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: d553f58e2e9b23a428fc3c574543daad, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 640d1f38836828849b74c0dfd5567648, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: d553f58e2e9b23a428fc3c574543daad, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 640d1f38836828849b74c0dfd5567648, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: d553f58e2e9b23a428fc3c574543daad, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 640d1f38836828849b74c0dfd5567648, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: ca4c55040ec9ab34b95770f6a6b2d4b7, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7d0ad5ed840ebe9428474c15d753e1c5, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 02546ca390b1eb0459d7acc991675f44, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 34bbb418b8e6b47479be094fb394b8f2, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: 71acd3eac1141084587ceb484fe8e02c, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: bb8ea2c55cb69204c8453e08d4f92705, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[13]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6b379376e245b8747989e25b101e568a, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: d6aa67d81f9caa64eba5c0ffddeca2d3, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[15]
+      value: 
+      objectReference: {fileID: 21300000, guid: 756b606873f74474d9b5ddd50f998ebd, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[16]
+      value: 
+      objectReference: {fileID: 21300000, guid: f457c794504f0234fb0db6c451c6dadf, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[17]
+      value: 
+      objectReference: {fileID: 21300000, guid: af14466c464cf4b48a8389a8359433f5, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[18]
+      value: 
+      objectReference: {fileID: 21300000, guid: 06e342b7270fdc84d9c9df6cfb922963, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[19]
+      value: 
+      objectReference: {fileID: 21300000, guid: 06a075d3491e024459244f4fb7e867db, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[20]
+      value: 
+      objectReference: {fileID: 21300000, guid: f6c74bba79ced6847967b3b79052b219, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[21]
+      value: 
+      objectReference: {fileID: 21300000, guid: aa42b6439b8095b41aa1f3ae47c1c691, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[22]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6345748ce72942744a9261d1d98993c0, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[23]
+      value: 
+      objectReference: {fileID: 21300000, guid: ac548319f99300a4b91c39110264b9dd, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[24]
+      value: 
+      objectReference: {fileID: 21300000, guid: 104da09c80b7bd24aa000f2bebd833db, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[25]
+      value: 
+      objectReference: {fileID: 21300000, guid: ee972432184018e47a032dcdc161cafc, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[26]
+      value: 
+      objectReference: {fileID: 21300000, guid: 638ced45387690d44b8ea07d62ebf469, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[27]
+      value: 
+      objectReference: {fileID: 21300000, guid: 504847ebf53b19141af62f24f184e626, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[28]
+      value: 
+      objectReference: {fileID: 21300000, guid: 89d1a3772d1fd64419d4f757f27b7019, type: 3}
+    - target: {fileID: 907294931509944071, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
+      propertyPath: spriteArray.Array.data[29]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1f73030f0112f25478bfd23a97925e93, type: 3}
     - target: {fileID: 4543736435923156095, guid: 1a0d87ad366e42947bba0f7616a0cb20, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1032,7 +1156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: "Waah! Wait\u2026 it\u2019s the light!"
+  storyText: "What's... that's\u2026 it\u2019s the light!"
   description: 
   character: {fileID: 684160128}
   portrait: {fileID: 0}
@@ -1413,7 +1537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: 
+  storyText: This stone has been here for many years, maybe undiscovered maybe just
+    ignored?
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -1479,8 +1604,8 @@ MonoBehaviour:
   - {fileID: 624723788}
   - {fileID: 624723781}
   - {fileID: 624723769}
-  - {fileID: 624723785}
   - {fileID: 624723786}
+  - {fileID: 624723785}
   - {fileID: 624723758}
   suppressAllAutoSelections: 0
 --- !u!114 &624723774
@@ -1558,7 +1683,7 @@ MonoBehaviour:
   scrollPos: {x: -118, y: 18}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 391
+  blockViewHeight: 625
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -1569,7 +1694,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 624723773}
   selectedCommands:
-  - {fileID: 624723786}
+  - {fileID: 624723785}
   variables:
   - {fileID: 624723766}
   - {fileID: 624723765}
@@ -1638,7 +1763,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: 
+  storyText: 'A tragedy that destroyed any life it didn''t take, the town has tried
+    to forget, but in this new generation not many people remember anyway. '
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -1665,7 +1791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: 'Crap, I have to go, Josie will be worried about me. '
+  storyText: 'Crap, I need to go, Josie will be worried about me. '
   description: 
   character: {fileID: 684160128}
   portrait: {fileID: 0}
@@ -1692,7 +1818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: 
+  storyText: Under the docks, we see the crumbling remains of an archway and some
+    pillars, it blocks the entrance to what it once marked long ago.
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -1719,7 +1846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: It fits.....
+  storyText: It fits...
   description: 
   character: {fileID: 684160128}
   portrait: {fileID: 0}
@@ -1773,7 +1900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: 
+  storyText: They leave, walking up the path and leaving sand behind for dirt.
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -1800,7 +1927,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: And Harper leave, likely to return very soon.
+  storyText: And Harper walks away, scrambling to grab the basket they dropped in
+    their pain and rushing to finish filling it with the native seaside green Josie
+    enjoys.
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -1827,7 +1956,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: 
+  storyText: It dips further into the hollow behind the wall of rocks and destroyed
+    pillar, perhaps trying to entice Harper somewhere...  But most likely not.
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -1854,7 +1984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: 
+  storyText: After all, why would it entice Harper somewhere they can't go?
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -1881,7 +2011,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: 
+  storyText: "Behind the collapsed structure harper finds themselves in front of,
+    is the light, the very familiar light that Harper saw just before they found
+    themselves in the past\u2026"
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -1990,7 +2122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: Hold on now, that looks interesting
+  storyText: "Oh, hold on... what\u2019s this? No this is interesting."
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -2017,7 +2149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: Oh that looks like it hurt
+  storyText: If Harper were the one narrating, I'm sure we would get an edgy teen
+    statement about how the physical pain now matches their emotional pain
   description: 
   character: {fileID: 1750832596}
   portrait: {fileID: 0}
@@ -2044,7 +2177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: ..... Over there!
+  storyText: ... Over there!
   description: 
   character: {fileID: 684160128}
   portrait: {fileID: 0}
@@ -2642,13 +2775,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907861326}
-  m_LocalRotation: {x: -0.022957042, y: 0.97606146, z: -0.17338957, w: -0.12927918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.32, y: 1.203, z: 2.378}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 20.146, y: 195.09, z: 0.001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938688459
 GameObject:
   m_ObjectHideFlags: 0

@@ -706,7 +706,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2453113842641918038}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 965841031}
   variables:
   - {fileID: 965841003}
   - {fileID: 965841002}
@@ -1255,8 +1256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: "(she won't even let me do errands on my own, always hovering \tnearby...
-    wait... maybe...) "
+  storyText: '(she won''t even let me do errands on my own, always hovering nearby...
+    wait... maybe...) '
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1338,7 +1339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: Oh! hello Harper
+  storyText: Oh! hello Harper!
   description: 
   character: {fileID: 1833949406}
   portrait: {fileID: 0}
@@ -1365,7 +1366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: "\u2026 hey Josie... anything else we need to do today? \t   "
+  storyText: "\u2026 Hey Josie... Anything else we need to do today? \t   "
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1392,7 +1393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: ... I forgot to write down the forages... its so hard getting there
+  storyText: ... I forgot to write down the forages... it's so hard getting there
     to harvest the plants in my old age...
   description: 
   character: {fileID: 1833949406}
@@ -1420,7 +1421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: And we zoom out, getting further away as Harper and Josie reunit, rain
+  storyText: And we zoom out, getting further away as Harper and Josie reunite, rain
     pattering gently on the roof.
   description: 
   character: {fileID: 645989645}
@@ -1559,7 +1560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: In the dark of the night, the soul can heal and rest, recharge. and
+  storyText: In the dark of the night, the soul can heal and rest, recharge. And
     when the sun rises again,
   description: 
   character: {fileID: 645989645}
@@ -2231,7 +2232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000011444092
+      value: 14.299965
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
