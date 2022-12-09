@@ -1475,7 +1475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.299965
+      value: -0.000022888184
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1970,8 +1970,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: (Bread milk ham cheese fish, down to beach, got bread, milk ham cheese
-    fish, down to beach)
+  storyText: '*muttering to self* Bread, milk, ham, cheese, fish,  down to beach,
+    got bread, milk, ham, cheese, fish, down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2427,8 +2427,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: (milk ham cheese fish, down to beach, why isn't the list in a nicer
-    order? milk cheese fish down to beach)
+  storyText: '*muttering to self* Milk, ham, cheese, fish, down to beach, why isn''t
+    the list in a nicer order? milk, cheese, fish, down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2455,7 +2455,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: (milk cheese fish, down to beach, only fish left then it's down to beach)
+  storyText: '*muttering to self* Milk, cheese, fish, down to beach, only fish left
+    then it''s down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2482,7 +2483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: (Last one in town. Time to head back to Josie's.)
+  storyText: '*muttering to self* Last one in town. Time to head back to Josie''s.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2773,7 +2774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: (Bread milk ham cheese fish, down to beach)
+  storyText: '*muttering to self* Bread, milk, ham, cheese, fish,  down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2854,8 +2855,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: "(Bread milk ham cheese fish, down to beach, don\u2019t think about
-    the year, don't think about family, bread milk ham cheese fish, down to beach)"
+  storyText: "*muttering to self* Bread, milk, ham, cheese, fish, , down to beach,
+    don\u2019t think about the year, don't think about family, bread, milk, ham,
+    cheese, fish, , down to beach."
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2909,7 +2911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: ah-*sigh* okay... come back and empty the basket before heading to the
+  storyText: Ah-*sigh* okay... come back and empty the basket before heading to the
     beach, okay? No need to lug all that down there.
   description: 
   character: {fileID: 1207713477}
@@ -2937,7 +2939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: (Bread milk ham cheese fish, down to beach)
+  storyText: '*muttering to self* Bread, milk, ham, cheese, fish, down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -3046,8 +3048,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: (don't think about being stuck, just think about the list bread milk
-    ham cheese fish, down to beach)
+  storyText: '*muttering to self* Don''t think about being stuck, just think about
+    the list bread, milk, ham, cheese, fish, , down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -3102,7 +3104,7 @@ MonoBehaviour:
   itemId: 49
   indentLevel: 0
   storyText: Are you sure? I just, I worry about you. You've been overworking yourself
-    lovey, I may be old, but I can still help, you need to sit down and let yourself
+    lovey. I may be old, but I can still help, you need to sit down and let yourself
     feel.
   description: 
   character: {fileID: 1207713477}
@@ -3151,8 +3153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: '(Bread milk ham cheese fish, down to beach, bread milk ham cheese fish,
-    down to beach) '
+  storyText: '*muttering to self* Bread, milk, ham, cheese, fish,  down to beach.
+    Bread, milk, ham, cheese, fish,  down to beach. '
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}

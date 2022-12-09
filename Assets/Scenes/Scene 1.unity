@@ -1156,7 +1156,6 @@ GameObject:
   - component: {fileID: 965841013}
   - component: {fileID: 965841038}
   - component: {fileID: 965841037}
-  - component: {fileID: 965841036}
   - component: {fileID: 965841035}
   - component: {fileID: 965841034}
   - component: {fileID: 965841033}
@@ -1194,7 +1193,6 @@ GameObject:
   - component: {fileID: 965841053}
   - component: {fileID: 965841055}
   - component: {fileID: 965841054}
-  - component: {fileID: 965841059}
   - component: {fileID: 965841058}
   - component: {fileID: 965841057}
   - component: {fileID: 965841056}
@@ -1202,7 +1200,6 @@ GameObject:
   - component: {fileID: 965841062}
   - component: {fileID: 965841063}
   - component: {fileID: 965841061}
-  - component: {fileID: 965841066}
   - component: {fileID: 965841065}
   - component: {fileID: 965841064}
   - component: {fileID: 965841069}
@@ -1212,6 +1209,9 @@ GameObject:
   - component: {fileID: 965841071}
   - component: {fileID: 965841072}
   - component: {fileID: 965840998}
+  - component: {fileID: 965841066}
+  - component: {fileID: 965841059}
+  - component: {fileID: 965841036}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1250,7 +1250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315.91632
     y: 63.463932
-    width: 91.41176
+    width: 91.46341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1281,11 +1281,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -181.36327, y: 60.56958}
+  scrollPos: {x: -129.25406, y: -118.698715}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1293,8 +1293,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 965840999}
-  selectedCommands: []
+  - {fileID: 965841011}
+  selectedCommands:
+  - {fileID: 965841068}
   variables:
   - {fileID: 965841005}
   - {fileID: 965841004}
@@ -1442,7 +1443,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 293.94852
     y: 310.7809
-    width: 135.64703
+    width: 135.36584
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1458,11 +1459,11 @@ MonoBehaviour:
   - {fileID: 965841036}
   - {fileID: 965841035}
   - {fileID: 965841034}
-  - {fileID: 965841059}
   - {fileID: 965841033}
   - {fileID: 965841064}
   - {fileID: 965841032}
   - {fileID: 965841065}
+  - {fileID: 965841059}
   - {fileID: 965841043}
   - {fileID: 965841031}
   - {fileID: 965841053}
@@ -1543,7 +1544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134.77544
     y: 399.51245
-    width: 114.94116
+    width: 112.195114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1585,7 +1586,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 457.53745
     y: 388.1273
-    width: 114.94116
+    width: 112.195114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1667,7 +1668,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 468.27347
     y: 458.51257
-    width: 89.5294
+    width: 91.46341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1735,7 +1736,7 @@ MonoBehaviour:
   itemId: 65
   indentLevel: 0
   storyText: "No matter what happens, I\u2019ll make sure you have a home, I promise.
-    Everything will be okay"
+    Everything will be okay."
   description: 
   character: {fileID: 598177717}
   portrait: {fileID: 0}
@@ -1789,8 +1790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: "My family- *sob* my little brother he\u2019s, he\u2019s only 8, I\u2019ll
-    *sob*"
+  storyText: "My family- *sob* my little brother he\u2019s only 8, I\u2019ll *sob*-"
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -1845,7 +1845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: ....
+  storyText: ...
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -1899,7 +1899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: No, I'm leaving. You lied to me......
+  storyText: No, I'm leaving. You lied to me...
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2036,7 +2036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: 'You don''t know??!!  '
+  storyText: You don't know?!
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2063,7 +2063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: Harper slams their hands on the table, rattling the porcelain... They
+  storyText: Harper slams their hands on the table, rattling the porcelain. They
     are angry...
   description: 
   character: {fileID: 898193534}
@@ -2172,7 +2172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: "I don\u2019t know dearie"
+  storyText: "I don\u2019t know."
   description: 
   character: {fileID: 598177717}
   portrait: {fileID: 0}
@@ -2241,7 +2241,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841036
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2251,11 +2251,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 41
+  itemId: 106
   indentLevel: 0
-  storyText: ........
+  storyText: 
   description: 
-  character: {fileID: 1514689618}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2428,9 +2428,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: ...
+  storyText: 
   description: 
-  character: {fileID: 598177717}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2712,7 +2712,7 @@ MonoBehaviour:
   itemId: 88
   indentLevel: 0
   storyText: "I\u2019ll do everything in my power to get you home. No matter what,
-    mark my words I\u2019ll get you home. You don\u2019t deserve this I\u2019m so
+    mark my words I\u2019ll get you home. You don\u2019t deserve this, I\u2019m so
     sorry.  "
   description: 
   character: {fileID: 598177717}
@@ -2783,7 +2783,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841059
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2793,9 +2793,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 85
+  itemId: 105
   indentLevel: 0
-  storyText: .....
+  storyText: ...
   description: 
   character: {fileID: 598177717}
   portrait: {fileID: 0}
@@ -2906,7 +2906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: ......
+  storyText: ...
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2948,7 +2948,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841066
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2958,11 +2958,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 94
+  itemId: 104
   indentLevel: 0
-  storyText: .....
+  storyText: Harper was silent, how could they be anything but after that reveal?
   description: 
-  character: {fileID: 1514689618}
+  character: {fileID: 898193534}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3014,9 +3014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: 'Such a young teen separated from their family with no reunion in sight.
-
-    ...'
+  storyText: Such a young teen separated from their family with no reunion in sight
   description: 
   character: {fileID: 898193534}
   portrait: {fileID: 0}
@@ -4056,7 +4054,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 145.31186
     y: 474.3569
-    width: 89.5294
+    width: 91.46341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4106,7 +4104,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276.5809
     y: 157.91483
-    width: 169.52939
+    width: 169.51218
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4194,7 +4192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286.07642
     y: 228.66306
-    width: 152.58821
+    width: 151.21948
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

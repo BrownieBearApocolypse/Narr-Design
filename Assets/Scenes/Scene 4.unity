@@ -1351,7 +1351,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 302.8402
     y: 514.3194
-    width: 111.714264
+    width: 112.54541
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1388,7 +1388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 294.941
     y: 360.99347
-    width: 110.5714
+    width: 111.090866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1421,7 +1421,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299.7448
     y: 194.78055
-    width: 109.42854
+    width: 109.63632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: "\u2026 ignoring the pain doesn\u2019t fix it honey"
+  storyText: "\u2026 Ignoring the pain doesn\u2019t fix it honey."
   description: 
   character: {fileID: 334018548}
   portrait: {fileID: 0}
@@ -1653,7 +1653,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 326.34488
     y: 581.9313
-    width: 78.57142
+    width: 80.54543
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: It's dinner time, Josie is cooking. She's always made the best chowder
+  storyText: It's dinner time, Josie is cooking. She's always made the best chowder.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -1708,7 +1708,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 307
     y: 130.93617
-    width: 92.2857
+    width: 93.63633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1770,7 +1770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314
     y: 48
-    width: 89.999985
+    width: 92.181786
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1796,11 +1796,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -68.51356, y: -35.063625}
+  scrollPos: {x: -2.2840347, y: 14.574257}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7000003
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1808,9 +1808,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1084442147}
+  - {fileID: 1084442135}
   selectedCommands:
-  - {fileID: 1084442133}
+  - {fileID: 1084442173}
   variables:
   - {fileID: 1084442142}
   - {fileID: 1084442141}
@@ -1854,7 +1854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.5613
     y: 439.07465
-    width: 97.999985
+    width: 99.454506
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1964,7 +1964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.5296
     y: 281.24136
-    width: 84.285706
+    width: 84.909065
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1994,10 +1994,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: "... I need something to make a lever\u2026 most of the pieces look
-    like I can lift or roll them so long as I have something to get them separated\u2026.
-    Probably need a shovel too, so that I can dig out what\u2019s been buried and
-    make channels\u2026."
+  storyText: "I need something to make a lever. Most of the pieces look like I can
+    lift or roll them so long as I have something to get them separated. Probably
+    need a shovel too, so that I can dig out what\u2019s been buried and make channels."
   description: 
   character: {fileID: 1586541055}
   portrait: {fileID: 0}
@@ -2080,7 +2079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "\u2026 okay"
+  storyText: "\u2026 Okay"
   description: 
   character: {fileID: 334018548}
   portrait: {fileID: 0}
@@ -2219,8 +2218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: but now there is nothing, no more goal to work towards, no more project
-    to take up all their time and energy
+  storyText: But now there is nothing, no more goal to work towards, no more project
+    to take up all their time and energy.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2247,8 +2246,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 94
   indentLevel: 0
-  storyText: now there is energy for them to think about what year it is, and what
-    year they were born
+  storyText: Now there is energy for them to think about what year it is, and what
+    year they were born.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2276,7 +2275,7 @@ MonoBehaviour:
   itemId: 93
   indentLevel: 0
   storyText: And what year their brother was born, the first time they saw his pudgy
-    little face
+    little face.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2387,7 +2386,7 @@ MonoBehaviour:
   itemId: 89
   indentLevel: 0
   storyText: And were back at the beach, the arch almost clear and the hollo dark,
-    no sign of the Light
+    no sign of the Light.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2418,7 +2417,7 @@ MonoBehaviour:
     overwhelming grief and agony they feel over never seeing their family again...
 
     They
-    think ignoring it will make it go away
+    think ignoring it will make it go away.
 
 '
   description: 
@@ -2447,9 +2446,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: "Harper\u2026. You\u2019ve been gone every moment you\u2019re not helping
-    me around here\u2026. You can\u2019t keep running around like this there\u2019s
-    only so much candle to burn."
+  storyText: "Harper, you\u2019ve been gone every moment you\u2019re not helping
+    me around here. You can\u2019t keep running around like this there\u2019s only
+    so much candle to burn."
   description: 
   character: {fileID: 334018548}
   portrait: {fileID: 0}
@@ -2477,7 +2476,7 @@ MonoBehaviour:
   itemId: 86
   indentLevel: 0
   storyText: They are quite sick of the wet feet when high tide comes in and surprises
-    them
+    them.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2505,7 +2504,7 @@ MonoBehaviour:
   itemId: 85
   indentLevel: 0
   storyText: But tomorrow they will return to the beach, tides be damned, and they
-    will work until the sun starts to set
+    will work until the sun starts to set.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2533,7 +2532,7 @@ MonoBehaviour:
   itemId: 84
   indentLevel: 0
   storyText: In the dark of night, they avoid sleep, trying to learn how to track
-    the tides, information that was so easy to find in the modern day
+    the tides, information that was so easy to find in the modern day.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2561,7 +2560,7 @@ MonoBehaviour:
   itemId: 83
   indentLevel: 0
   storyText: And only once light has almost faded will they break from their work
-    to return to their lodgings
+    to return to their lodgings.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2588,7 +2587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: .... *yawns* if the moon is...
+  storyText: '*yawns* If the moon is-'
   description: 
   character: {fileID: 1586541055}
   portrait: {fileID: 0}
@@ -2616,7 +2615,7 @@ MonoBehaviour:
   itemId: 81
   indentLevel: 0
   storyText: It has been a couple of days again, and we meet back with Harper at
-    the windowsill, studying the phase of the moon and the tide over the shore
+    the windowsill, studying the phase of the moon and the tide over the shore.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2673,7 +2672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 79
   indentLevel: 0
-  storyText: Harper dries, they look exhausted, hands bruised and muscles sore
+  storyText: Harper dries, they look exhausted, hands bruised and muscles sore.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2700,7 +2699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: "\u2026 you were gone for a while."
+  storyText: "\u2026 You were gone for a while."
   description: 
   character: {fileID: 334018548}
   portrait: {fileID: 0}
@@ -2755,7 +2754,7 @@ MonoBehaviour:
   itemId: 76
   indentLevel: 0
   storyText: Now, do not get me wrong, it is good for Harper to be doing something
-    productive... but not when they're ignoring what happened...
+    productive... but not when they're ignoring what happened.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2810,7 +2809,7 @@ MonoBehaviour:
   itemId: 74
   indentLevel: 0
   storyText: You can see when Harper realizes that if they don't break apart the
-    bigger chunks of rubble, it might take them weeks...
+    bigger chunks of rubble, it might take them weeks.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2837,8 +2836,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: Maybe a hammer and chisel? to break up the bigger pieces.... yeah...
-    this will take ages to do if I don't break some of these....
+  storyText: Maybe a hammer and chisel? To break up the bigger pieces. Yeah, this
+    will take ages to do if I don't break some of these.
   description: 
   character: {fileID: 1586541055}
   portrait: {fileID: 0}
