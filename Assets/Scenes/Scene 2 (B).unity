@@ -1475,7 +1475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000022888184
+      value: 14.299951
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1943,7 +1943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: '*sigh* Back to Josie''s, and then it''s foraging time.'
+  storyText: '*Sigh* Back to Josie''s, and then it''s foraging time.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -1970,7 +1970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: '*muttering to self* Bread, milk, ham, cheese, fish,  down to beach,
+  storyText: '*Muttering to self* Bread, milk, ham, cheese, fish, down to beach,
     got bread, milk, ham, cheese, fish, down to beach.'
   description: 
   character: {fileID: 1406741221}
@@ -2190,7 +2190,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 321
     y: 354
-    width: 80.526306
+    width: 77.63157
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2354,7 +2354,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 289.63293
     y: 255.52771
-    width: 109.999985
+    width: 106.57893
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2427,8 +2427,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: '*muttering to self* Milk, ham, cheese, fish, down to beach, why isn''t
-    the list in a nicer order? milk, cheese, fish, down to beach.'
+  storyText: '*Muttering to self* Milk, ham, cheese, fish, down to beach, why isn''t
+    the list in a nicer order? Milk, cheese, fish, down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: '*muttering to self* Milk, cheese, fish, down to beach, only fish left
+  storyText: '*Muttering to self* Milk, cheese, fish, down to beach, only fish left
     then it''s down to beach.'
   description: 
   character: {fileID: 1406741221}
@@ -2483,7 +2483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: '*muttering to self* Last one in town. Time to head back to Josie''s.'
+  storyText: '*Muttering to self* Last one in town. Time to head back to Josie''s.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2512,7 +2512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305
     y: 165.93617
-    width: 109.999985
+    width: 107.894714
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2583,7 +2583,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314
     y: 48
-    width: 92.105255
+    width: 89.47367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2621,8 +2621,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1773698539}
-  selectedCommands: []
+  - {fileID: 1773698545}
+  selectedCommands:
+  - {fileID: 1773698537}
   variables:
   - {fileID: 1773698531}
   - {fileID: 1773698530}
@@ -2665,7 +2666,7 @@ MonoBehaviour:
   itemId: 66
   indentLevel: 0
   storyText: You'd think with two people there now Josie would run through things
-    faster.... You okay kid?
+    faster. You okay kid?
   description: 
   character: {fileID: 1427170165}
   portrait: {fileID: 0}
@@ -2774,7 +2775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: '*muttering to self* Bread, milk, ham, cheese, fish,  down to beach.'
+  storyText: '*Muttering to self* Bread, milk, ham, cheese, fish, down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2828,7 +2829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: Okay.... Take care, will you? This old woman worries.
+  storyText: Okay. Take care, will you? This old woman worries.
   description: 
   character: {fileID: 1207713477}
   portrait: {fileID: 0}
@@ -2855,9 +2856,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: "*muttering to self* Bread, milk, ham, cheese, fish, , down to beach,
+  storyText: "*Muttering to self* Bread, milk, ham, cheese, fish, down to beach,
     don\u2019t think about the year, don't think about family, bread, milk, ham,
-    cheese, fish, , down to beach."
+    cheese, fish, down to beach."
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2884,7 +2885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: 'I will '
+  storyText: I will.
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -2911,7 +2912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: Ah-*sigh* okay... come back and empty the basket before heading to the
+  storyText: Ah-*sigh* Okay... come back and empty the basket before heading to the
     beach, okay? No need to lug all that down there.
   description: 
   character: {fileID: 1207713477}
@@ -2939,7 +2940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: '*muttering to self* Bread, milk, ham, cheese, fish, down to beach.'
+  storyText: '*Muttering to self* Bread, milk, ham, cheese, fish, down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -3008,7 +3009,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698569
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3048,8 +3049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: '*muttering to self* Don''t think about being stuck, just think about
-    the list bread, milk, ham, cheese, fish, , down to beach.'
+  storyText: '*Muttering to self* Don''t think about being stuck, just think about
+    the list bread, milk, ham, cheese, fish, down to beach.'
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -3153,8 +3154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: '*muttering to self* Bread, milk, ham, cheese, fish,  down to beach.
-    Bread, milk, ham, cheese, fish,  down to beach. '
+  storyText: '*Muttering to self* Bread, milk, ham, cheese, fish, down to beach.
+    Bread, milk, ham, cheese, fish, down to beach. '
   description: 
   character: {fileID: 1406741221}
   portrait: {fileID: 0}
@@ -3169,7 +3170,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698575
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3196,7 +3197,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698576
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3224,7 +3225,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698577
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3251,7 +3252,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1773698578
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3264,7 +3265,7 @@ MonoBehaviour:
   itemId: 81
   indentLevel: 0
   storyText: Harper add the bread to their basket, and their thoughts to a little
-    box in their head labelled "Do Not Touch"
+    box in their head labelled "Do Not Touch".
   description: 
   character: {fileID: 859907489}
   portrait: {fileID: 0}

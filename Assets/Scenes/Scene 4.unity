@@ -1351,7 +1351,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 302.8402
     y: 514.3194
-    width: 112.54541
+    width: 112.8866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1360,7 +1360,6 @@ MonoBehaviour:
   description: pictures need to go here
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1084442128}
   - {fileID: 1084442174}
   - {fileID: 1084442165}
   - {fileID: 1084442166}
@@ -1371,6 +1370,7 @@ MonoBehaviour:
   - {fileID: 1084442171}
   - {fileID: 1084442172}
   - {fileID: 1084442173}
+  - {fileID: 1084442128}
   suppressAllAutoSelections: 0
 --- !u!114 &1084442136
 MonoBehaviour:
@@ -1388,7 +1388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 294.941
     y: 360.99347
-    width: 111.090866
+    width: 111.85567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1399,8 +1399,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1084442182}
   - {fileID: 1084442177}
-  - {fileID: 1084442181}
   - {fileID: 1084442179}
+  - {fileID: 1084442181}
   - {fileID: 1084442178}
   - {fileID: 1084442180}
   - {fileID: 1084442129}
@@ -1421,7 +1421,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299.7448
     y: 194.78055
-    width: 109.63632
+    width: 110.82474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: "\u2026 Ignoring the pain doesn\u2019t fix it honey."
+  storyText: "Ignoring the pain doesn\u2019t fix it honey."
   description: 
   character: {fileID: 334018548}
   portrait: {fileID: 0}
@@ -1653,7 +1653,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 326.34488
     y: 581.9313
-    width: 80.54543
+    width: 79.896904
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1706,9 +1706,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 307
-    y: 130.93617
-    width: 93.63633
+    x: 321.925
+    y: 123.473495
+    width: 93.298965
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1770,7 +1770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314
     y: 48
-    width: 92.181786
+    width: 91.237114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1796,11 +1796,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2.2840347, y: 14.574257}
+  scrollPos: {x: -85.12001, y: -234.17769}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.5500004
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1810,7 +1810,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1084442135}
   selectedCommands:
-  - {fileID: 1084442173}
+  - {fileID: 1084442128}
   variables:
   - {fileID: 1084442142}
   - {fileID: 1084442141}
@@ -1854,7 +1854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.5613
     y: 439.07465
-    width: 99.454506
+    width: 99.484535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1907,7 +1907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: Ha-Ha yeah lost track of time.
+  storyText: Ha-Ha yeah. Lost track of time.
   description: 
   character: {fileID: 1586541055}
   portrait: {fileID: 0}
@@ -1964,7 +1964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.5296
     y: 281.24136
-    width: 84.909065
+    width: 84.020615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2052,7 +2052,7 @@ MonoBehaviour:
   itemId: 43
   indentLevel: 0
   storyText: "I found some ruins of the original architecture; I\u2019m clearing
-    it since it looks like there\u2019s a cave or something behind it"
+    it since it looks like there\u2019s a cave or something behind it."
   description: 
   character: {fileID: 1586541055}
   portrait: {fileID: 0}
@@ -2079,7 +2079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "\u2026 Okay"
+  storyText: Okay.
   description: 
   character: {fileID: 334018548}
   portrait: {fileID: 0}
@@ -2190,7 +2190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: How could they possibly be sad when they are working when they have
+  storyText: How could they possibly be sad when they are working? When they have
     completed something?
   description: 
   character: {fileID: 554815912}
@@ -2358,7 +2358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  storyText: They don't see that the Light has returned....
+  storyText: They don't see that the light has returned.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2385,8 +2385,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 0
-  storyText: And were back at the beach, the arch almost clear and the hollo dark,
-    no sign of the Light.
+  storyText: And were back at the beach, the arch almost clear and the hollow dark,
+    no sign of the light.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2414,7 +2414,7 @@ MonoBehaviour:
   itemId: 88
   indentLevel: 0
   storyText: 'Harper is young, they haven''t yet fully learned how to process the
-    overwhelming grief and agony they feel over never seeing their family again...
+    overwhelming grief and agony they feel over never seeing their family again.
 
     They
     think ignoring it will make it go away.
@@ -2642,10 +2642,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: 'A simple action really, one Harper knows from the modern day....
+  storyText: 'A simple action really, one Harper knows from the modern day.
 
     Josie
-    passes the clean plate to her new ward'
+    passes the clean plate to her new ward.'
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}
@@ -2699,7 +2699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: "\u2026 You were gone for a while."
+  storyText: You were gone for a while.
   description: 
   character: {fileID: 334018548}
   portrait: {fileID: 0}
@@ -2754,7 +2754,7 @@ MonoBehaviour:
   itemId: 76
   indentLevel: 0
   storyText: Now, do not get me wrong, it is good for Harper to be doing something
-    productive... but not when they're ignoring what happened.
+    productive. But not when they're ignoring what happened.
   description: 
   character: {fileID: 554815912}
   portrait: {fileID: 0}

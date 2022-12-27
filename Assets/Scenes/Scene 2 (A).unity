@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -128, y: -83.899994}
+  scrollPos: {x: -126, y: -37.899994}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -705,9 +705,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2453113842641918033}
+  - {fileID: 2453113842641918038}
   selectedCommands:
-  - {fileID: 965841016}
+  - {fileID: 2453113842641918031}
   variables:
   - {fileID: 965841003}
   - {fileID: 965841002}
@@ -908,7 +908,7 @@ MonoBehaviour:
   itemId: 37
   indentLevel: 0
   storyText: I shouldn't have run away, I shouldn't have yelled, I'm sorry I'm sorry,
-    you were doing your best I'm sorry
+    you were doing your best I'm sorry.
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: I-I'm sorry *sob*
+  storyText: I-I'm sorry. *sob*
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1092,7 +1092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: '*muttering to self* Deep breaths Harper, you can do this.'
+  storyText: '*Muttering to self* Deep breaths Harper, you can do this.'
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: 'I just said I wanted to didn''t I... *Deep breath* Sorry. I shouldn''t
+  storyText: 'I just said I wanted to didn''t I- *Deep breath* Sorry. I shouldn''t
     have snapped '
   description: 
   character: {fileID: 722211365}
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: I'll be fine Josie
+  storyText: I'll be fine Josie.
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1174,7 +1174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: "*muttering to self*  God I\u2019ve been such as asshole to her, but
+  storyText: "*Muttering to self*  God I\u2019ve been such as asshole to her, but
     she hasn't exactly been the easiest to live with since I came back though."
   description: 
   character: {fileID: 722211365}
@@ -1256,8 +1256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: '*muttering to self*  She won''t even let me do errands on my own, always
-    hovering nearby... Wait, maybe...'
+  storyText: '*Muttering to self*  She won''t even let me do errands on my own, always
+    hovering nearby, wait, maybe...'
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1366,7 +1366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: "Hey Josie... Anything else we need to do today? \t   "
+  storyText: "Hey Josie, anything else we need to do today? \t   "
   description: 
   character: {fileID: 722211365}
   portrait: {fileID: 0}
@@ -1449,7 +1449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: 'Or maybe something else will happen...
+  storyText: 'Or maybe something else will happen.
 
     What do you think?'
   description: 
@@ -2672,7 +2672,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 319
     y: 349
-    width: 79.6
+    width: 79
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2742,8 +2742,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 316
-    y: 170.93617
-    width: 87.6
+    y: 169.93617
+    width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2782,8 +2782,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 314
-    y: 267
-    width: 93.2
+    y: 268
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

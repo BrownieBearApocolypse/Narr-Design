@@ -424,7 +424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886077779978069708, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 14.299963
+      value: 14.299996
       objectReference: {fileID: 0}
     - target: {fileID: 7886077780269969211, guid: 4d703c10fd865a1439a7227b398f014b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1221,7 +1221,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &965840998
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1250,7 +1250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315.91632
     y: 63.463932
-    width: 91.46341
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1281,11 +1281,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -129.25406, y: -118.698715}
+  scrollPos: {x: -262.035, y: -205.12729}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8200002
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1295,7 +1295,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 965841011}
   selectedCommands:
-  - {fileID: 965841068}
+  - {fileID: 965841067}
   variables:
   - {fileID: 965841005}
   - {fileID: 965841004}
@@ -1356,8 +1356,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: ' Old Woman Josie, after having offended her. Once Harper has completed
-    all the tasks Josie had set for them, they are told devastating news...'
+  storyText: Old Woman Josie, after having offended her. Once Harper has completed
+    all the tasks Josie had set for them, they are told devastating news...
   description: 
   character: {fileID: 898193534}
   portrait: {fileID: 0}
@@ -1414,7 +1414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: It's been a few hours now.... maybe a good cuppa will help?
+  storyText: It's been a few hours now, maybe a good cuppa will help?
   description: 
   character: {fileID: 898193534}
   portrait: {fileID: 0}
@@ -1443,7 +1443,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 293.94852
     y: 310.7809
-    width: 135.36584
+    width: 133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1544,7 +1544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134.77544
     y: 399.51245
-    width: 112.195114
+    width: 112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1586,7 +1586,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 457.53745
     y: 388.1273
-    width: 112.195114
+    width: 112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1668,7 +1668,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 468.27347
     y: 458.51257
-    width: 91.46341
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1899,7 +1899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: No, I'm leaving. You lied to me...
+  storyText: No, I'm leaving. You lied to me.
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -1955,7 +1955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: You were supposed to help me
+  storyText: You were supposed to help me.
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2226,7 +2226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "Josie\u2026. What happens now? Can I ever go home again?"
+  storyText: Josie, what happens now? Can I ever go home again?
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2241,7 +2241,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841036
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2741,7 +2741,7 @@ MonoBehaviour:
   itemId: 87
   indentLevel: 0
   storyText: This entire time I WAS RUNNING AROUND DOING THESE USELESS JOBS FOR YOU
-    AND YOU WEREN'T EVEN GOING TO GET ME HOME
+    AND YOU WEREN'T EVEN GOING TO GET ME HOME!
   description: 
   character: {fileID: 1514689618}
   portrait: {fileID: 0}
@@ -2783,7 +2783,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841059
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2948,7 +2948,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &965841066
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3014,7 +3014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: Such a young teen separated from their family with no reunion in sight
+  storyText: Such a young teen separated from their family with no reunion in sight.
   description: 
   character: {fileID: 898193534}
   portrait: {fileID: 0}
@@ -3116,7 +3116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 0
-  storyText: And off they go, running from their problems.... I worry for them.
+  storyText: And off they go, running from their problems. I worry for them.
   description: 
   character: {fileID: 898193534}
   portrait: {fileID: 0}
@@ -4054,7 +4054,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 145.31186
     y: 474.3569
-    width: 91.46341
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4104,7 +4104,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276.5809
     y: 157.91483
-    width: 169.51218
+    width: 165
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4192,7 +4192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286.07642
     y: 228.66306
-    width: 151.21948
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
